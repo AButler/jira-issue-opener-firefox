@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jira Issue Opener Popup</title>
+    <script src="lib/jira.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <a id="options" href="#" class="options">Options</a>
+        <h1 id="lblHeader">Jira Issue Opener</h1>
+      </div>
+      <label id="lblId" for="id">ID</label>
+      <input id="id" type="text" class="full-width" autocomplete="off" />
+      <div id="error" class="error hidden">Invalid Jira ID</div>
+      <div class="actions">
+        <button id="submit" type="submit" class="primary">Open Jira</button>
+        <a id="cancel" href="#" class="cancel">Close</a>
+      </div>
+    </div>
+  </body>
+</html>
