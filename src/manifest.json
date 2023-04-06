@@ -1,7 +1,7 @@
 {
   "name": "__MSG_extName__",
   "short_name": "__MSG_extShortName__",
-  "version": "1.1",
+  "version": "1.2",
   "author": "webbutler",
   "homepage_url": "https://github.com/AButler/jira-issue-opener-firefox",
   "default_locale": "en",
@@ -27,6 +27,19 @@
     "32": "images/jira-32.png",
     "48": "images/jira-48.png",
     "128": "images/jira-128.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Q"
+      },
+      "description": "Activate the extension"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{78847f60-651b-48e1-b00f-f5782719788b}"
+    }
   },
   "manifest_version": 2
 }
